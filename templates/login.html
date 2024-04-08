@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{% static 'css/login2.css' %}">
+    
+</head>
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+        {% for message in messages %}
+        <h3 style="color: red; text-align: center;">{{message}}</h3>
+        {% endfor %}
+        
+       
+        <form method="POST" action="login">
+            {% csrf_token %}
+                
+            
+            <br>
+                    <label>Enrollment no:</label>
+                    <input type="text" pattern="(?=.*\d)(?=.*[A-Z])(?=.*[0-9]).{8}" title="Eg. CL-23022" placeholder="" name="Enrollment" required>
+            </br>
+            
+            <br>
+            <label>Password</label>
+            <input type="password" placeholder="" required name="Password">
+            </br>
+        <p>
+        <input class="submit-btn" value="Login" type="submit">
+        <br>
+                <b class="end" ><br>Don't have a account?</b>
+                <a href="signup" id="signup">Sign Up</a> 
+                </b>
+        </p>     
+        </form>
+    </div>
+</body>
+</html>
