@@ -1,0 +1,56 @@
+.login-box{ width:360px;
+    height:360px;
+    margin: 15% 40%;
+    
+    border-radius: 3px;
+
+} 
+
+h1{ 
+    text-align:center;
+    
+    color:black;
+
+}
+
+form input{
+    width: 97%;
+    padding: 5px;
+    border:none;
+    border:1px solid gray;
+    border-radius:6px;
+    outline:none;
+    text-align: center;
+}
+form label{
+    display:flex;
+    margin-top:5px;
+    font-size:18px;
+    color: black;
+    text-align: center;
+}
+.submit-btn{
+    width:120px;
+    height:40px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 33%;
+    background-color: blue;
+    color: white;
+    border-radius:20px ;
+    font-size: 20px;
+    cursor: pointer;
+
+    
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("./book2.jpg");
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
