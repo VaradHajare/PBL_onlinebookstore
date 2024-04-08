@@ -1,0 +1,85 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("./book2.jpg");
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    
+   
+
+}
+.signup-box{
+    width:360px;
+    height:650px;
+    margin:auto;
+    background-color:transparent ;
+    border-radius: 3px;
+}
+
+form{
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    width:300px;
+    margin-left:20px;
+    color: black;
+}
+form label{
+    display:flex;
+    margin-top:5px;
+    font-size:18px;
+    color: black;
+}
+h1{ 
+    text-align:center;
+    /* padding-top:15px; */
+    color:black;
+
+
+}
+h4{
+    text-align:center;
+    color: blue;
+}
+form input{
+    width: 100%;
+    padding: 5px;
+    border:none;
+    border:1px solid gray;
+    border-radius:6px;
+    outline:none;
+    
+}
+:-ms-input-placeholder{
+    background-color: rgb(49, 49, 243);
+    width: 120px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    cursor: pointer;
+        
+
+}
+
+p{
+    text-align: center;
+    padding-top:20px;
+}
+#sign{
+    margin-top: 10%;
+    margin-right:10%;
+}
+.drop{
+    width: 50%;
+    padding: 30%;
+}
